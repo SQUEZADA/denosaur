@@ -1,6 +1,3 @@
-import React, { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
-
 const Dinosaur = () => {
   const { dinosaur } = useParams();
   const [dino, setDino] = useState({});

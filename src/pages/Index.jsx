@@ -1,6 +1,3 @@
-import React, { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
-
 const Index = () => {
   const [dinos, setDinos] = useState([]);
   const [allDinos, setAllDinos] = useState([]);
